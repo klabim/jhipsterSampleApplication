@@ -1,0 +1,169 @@
+#arrowSize: 1
+#bendSize: 0.5
+#direction: down
+#gutter: 20
+#edgeMargin: 1
+#edges: rounded
+#fill: #eeeeee; #ede6ee
+#fillArrows: false
+#font: Courrier
+#fontSize: 22
+#leading: 1.5
+#lineWidth: 5
+#padding: 20
+#spacing: 45
+#stroke: #000000
+#title: ExtractBrutPourPartage
+#zoom: 0.5
+
+relationship OneToMany {
+Collaborateur{ContratDeTravail} to ContratDeTravail,
+ContratDeTravail{ContactsProfessionnels} to ContactsProfessionnels,
+ContratDeTravail{Deontologie} to Deontologie,
+ContratDeTravail{DateDEntreeGroupeSg} to DateDEntreeGroupeSg,
+ContratDeTravail{ContratDeTravail} to ContratDeTravail,
+ContratDeTravail{RegimeDeTravail} to RegimeDeTravail,
+ContratDeTravail{Teletravail} to Teletravail,
+ContratDeTravail{EvenementsDeCarriere} to EvenementsDeCarriere,
+ContratDeTravail{Externe} to Externe,
+ContratDeTravail{LiensManageriaux} to LiensManageriaux,
+ContratDeTravail{SocieteJuridiqueDAccueilGroupe} to SocieteJuridiqueDAccueilGroupe,
+ContratDeTravail{SocieteJuridiqueDOrigineGroupe} to SocieteJuridiqueDOrigineGroupe,
+ContratDeTravail{PaysDeTravailGroupe} to PaysDeTravailGroupe,
+ContratDeTravail{PaysDOrigineGroupe} to PaysDOrigineGroupe,
+ContratDeTravail{PleDActiviteGroupe} to PleDActiviteGroupe,
+ContratDeTravail{SousPleDActiviteGroupe} to SousPleDActiviteGroupe,
+ContratDeTravail{IndicateurReorganisation} to IndicateurReorganisation,
+ContratDeTravail{ServiceDAffectationAdministratifLocal} to ServiceDAffectationAdministratifLocal,
+ContratDeTravail{ServiceDAffectationBudgetaireDuCollaborateur} to ServiceDAffectationBudgetaireDuCollaborateur,
+ContratDeTravail{EntiteDeGestion} to EntiteDeGestion,
+ContratDeTravail{Metier} to Metier,
+ContratDeTravail{Emploi} to Emploi,
+ContratDeTravail{Poste} to Poste,
+ContratDeTravail{ConventionCollective} to ConventionCollective,
+ContratDeTravail{ClassificationLocale} to ClassificationLocale,
+ContratDeTravail{ClassificationGroupe} to ClassificationGroupe,
+ContratDeTravail{TypeDePersonnel} to TypeDePersonnel,
+ContratDeTravail{NiveauDeContribution} to NiveauDeContribution,
+ContratDeTravail{RemunerationFixe} to RemunerationFixe,
+ContratDeTravail{QualificationsMifii} to QualificationsMifii,
+ContratDeTravail{SupervisionMifii} to SupervisionMifii,
+ContratDeTravail{ExperiencesMifii} to ExperiencesMifii
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
